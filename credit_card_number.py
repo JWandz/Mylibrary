@@ -12,7 +12,7 @@ def credit_card_number(number):
     
     total = 0
     
-    #Check numbers into strings
+    #convert numbers into strings
     if type(number) == int: 
         number = str(number)
         print(f"Provided number {number} was converted to a string")
