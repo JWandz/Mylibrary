@@ -5,7 +5,7 @@ Created on Tue Mar 31 16:36:29 2020
 
 @author: JWandz
 """
-def creditCardNumberCheck(number):
+def credit_card_number(number):
     """ Number(String or Integer) --> Bool
     Function checks if provided variable is a credit card number
     """
@@ -64,9 +64,9 @@ code5 = "358671110790147666"
 #if number
 code6 = 358670790447666
 
-print(creditCardNumberCheck(code))
-print(creditCardNumberCheck(code2))
-print(creditCardNumberCheck(code3))
-print(creditardNumberCheck(code4))
-print(creditcardNumberCheck(code5))
-print(creditcardNumberCheck(code6))
+print(credit_card_number(code))
+print(credit_card_number(code2))
+print(credit_card_number(code3))
+print(credit_card_number(code4))
+print(credit_card_number(code5))
+print(credit_card_number(code6))
